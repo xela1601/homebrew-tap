@@ -6,10 +6,10 @@ class AsciiWebcam < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/xela1601/ascii-webcam/releases/download/v1.0.0/ascii-webcam-aarch64-apple-darwin.tar.gz"
-      sha256 "81fe70e8368a98648529a54f7d9b248898fcf60a3fb64fec6fd98ac3f1e56abd"
+      sha256 "49f7094c46b979ac0574cdef6fe725b303ec4325c1aa6d0d85383d8200268a25"
     else
       url "https://github.com/xela1601/ascii-webcam/releases/download/v1.0.0/ascii-webcam-x86_64-apple-darwin.tar.gz"
-      sha256 "b4d54ee219ff95382807a0123d1ef29cce75c83a46c1db656a891d9369368b9b"
+      sha256 "c3f9f553e3a17bdcb0df9f890aa568be680c93696ab48910624f84678aa8fa82"
     end
   end
 
