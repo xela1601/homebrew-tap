@@ -1,15 +1,15 @@
 class AsciiWebcam < Formula
   desc "Terminal-based webcam that renders your live feed as colored ASCII art"
   homepage "https://github.com/xela1601/ascii-webcam"
-  version "1.0.0"
+  version "1.0.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/xela1601/ascii-webcam/releases/download/v1.0.0/ascii-webcam-aarch64-apple-darwin.tar.gz"
-      sha256 "eccb2b7946d4529f8b8e96582316beb621d795c9ab791b912c5d83ce5f7fd794"
+      url "https://github.com/xela1601/ascii-webcam/releases/download/v1.0.1/ascii-webcam-aarch64-apple-darwin.tar.gz"
+      sha256 "93d2524cdce3286e4525fec3bfce8f68d849d8f02604efe090e35c5d4a4312cb"
     else
-      url "https://github.com/xela1601/ascii-webcam/releases/download/v1.0.0/ascii-webcam-x86_64-apple-darwin.tar.gz"
-      sha256 "3eaf1beca2ca622f1d689228be1e455b006deb4d7b7699dfdeea2bd3ccb145d7"
+      url "https://github.com/xela1601/ascii-webcam/releases/download/v1.0.1/ascii-webcam-x86_64-apple-darwin.tar.gz"
+      sha256 "740f3eef61f10866e5e04ffcc74f176842c72d093875225a2bf752b2666c227e"
     end
   end
 
